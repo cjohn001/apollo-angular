@@ -8,7 +8,7 @@ What you get:
 
 1. **First class view layer integration** between the Offix graphql client and the Angular 2+ framework.
 2. **Strong typescript typing support** for your graphql data layer via the use of GraphQL Code Generator.
-3. **Auto-generated data service integration** when used together with GraphQL Code Generator. Check out this [video](https://www.youtube.com/watch?v=KGBPODrjtKA) and decide if you still like to do everything manually for your next project.
+3. **Auto-generated data service integration** when used together with GraphQL Code Generator. Check out this [video](https://www.youtube.com/watch?v=KGBPODrjtKA) and decide if you still like to code your services by hand in your next project.
 4. **Offline data storage and data sync with your backend** through the Offix client. Its not just a caching client like Apollo Angular but allows for long offline periods, data persistance and data sync when the client comes back online.
 
 **Offix Angular** requires _no_ complex build setup to get up and running. As long as you have a GraphQL server you can get started building out your application with Angular immediately. Offix Angular works out of the box with both [Angular CLI](https://cli.angular.io/) (`ng add offix-angular`) and [NativeScript](https://www.nativescript.org/) with a single install.
