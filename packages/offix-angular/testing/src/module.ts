@@ -1,4 +1,4 @@
-import {ApolloModule, Apollo} from 'ofx-angular';
+import {ApolloModule, Apollo} from 'offix-angular';
 import {ApolloLink, Operation as LinkOperation} from 'apollo-link';
 import {InMemoryCache} from 'apollo-cache-inmemory';
 import {ApolloCache} from 'apollo-cache';

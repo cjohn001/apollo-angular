@@ -1,7 +1,7 @@
 {
-  "name": "ofx-angular",
+  "name": "offix-angular",
   "description": "Use your GraphQL data in your Angular app, with the Apollo Client",
-  "version": "0.0.1-alpha.0",
+  "version": "0.0.1",
   "author": {
     "name": "Christoph John",
     "email": "christoph_john@gmx.de",
