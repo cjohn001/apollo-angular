@@ -1,4 +1,4 @@
-# [Offix Angular](https://github.com/cjohn001/apollo-angular/tree/master/packages/offix-angular) [![npm version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&type=6&v=0.0.1&x2=0)]
+# [Offix Angular](https://github.com/cjohn001/apollo-angular/tree/master/packages/offix-angular) [![npm version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&type=6&v=0.0.2&x2=0)]
 
 Offix Angular delivers a truly offline first experience through the integration of an extended Apollo Graphql client known as Offix. The package allows to fetch data from your GraphQL server. You can use it for building complex and reactive UIs using the Angular framework. Offix Angular may be used in any context where Angular may be used. In the browser, in NativeScript, or Node.js.
 
