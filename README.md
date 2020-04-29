@@ -1,1 +1,1 @@
-packages/apollo-angular/README.md
+packages/offix-angular/README.md
