@@ -99,4 +99,4 @@ On a Nativescript platform the APP_INITIALZER approach does not work. An early i
 
 See this issue: https://github.com/NativeScript/nativescript-angular/issues/1487
 
-Offix Angular is free like free beer, so try it out today and use it at our own risk!
+Offix Angular is free like free beer, so try it out today and use it at your own risk!
