@@ -118,6 +118,6 @@ config:
 
 A configuration example can be found here:
 
-https://github.com/dotansimha/graphql-code-generator/pull/3952
+https://github.com/dotansimha/graphql-code-generator/pull/3952#issuecomment-621863189
 
 Offix Angular is free like free beer, so try it out today and use it at your own risk!
