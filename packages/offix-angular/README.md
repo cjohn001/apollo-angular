@@ -1,4 +1,4 @@
-# [Offix Angular](https://github.com/cjohn001/apollo-angular/tree/master/packages/offix-angular) [![npm version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&type=6&v=0.0.2&x2=0)]
+# [Offix Angular](https://github.com/cjohn001/apollo-angular/tree/master/packages/offix-angular) [![npm version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&type=6&v=0.0.3&x2=0)]
 
 Offix Angular delivers a truly offline first experience through the integration of an extended Apollo Graphql client known as Offix. The package allows to fetch data from your GraphQL server. You can use it for building complex and reactive UIs using the Angular framework. Offix Angular may be used in any context where Angular may be used. In the browser, in NativeScript, or Node.js.
 
@@ -98,5 +98,26 @@ Before sending your first query you need to ensure that offix client was initial
 On a Nativescript platform the APP_INITIALZER approach does not work. An early initialization can be implemented via a root resolver when routing to the first page which sends a graphql query.
 
 See this issue: https://github.com/NativeScript/nativescript-angular/issues/1487
+
+**Usage notes for Graphql-Code-Generator:**
+
+Thanks to the great work of Dothan Simha the GraphQL Code Generator can now be used out of the box with Offix-Angular when using the [TypeScript Apollo Angular Plugin](https://graphql-code-generator.com/docs/plugins/typescript-apollo-angular).
+
+You need at least:
+
+```
+npx match-version @graphql-codegen 1.13.5-alpha-7b00b74c.0+7b00b74c
+```
+
+and should add the following config option:
+
+```
+config:
+  apolloAngularPackage: 'offix-angular'
+```
+
+A configuration example can be found here:
+
+https://github.com/dotansimha/graphql-code-generator/pull/3952
 
 Offix Angular is free like free beer, so try it out today and use it at your own risk!

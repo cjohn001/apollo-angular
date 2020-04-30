@@ -1,7 +1,7 @@
 {
   "name": "offix-angular",
   "description": "Use your GraphQL data in your Angular app, with the Offix Client",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": {
     "name": "Christoph John",
     "email": "christoph_john@gmx.de",
